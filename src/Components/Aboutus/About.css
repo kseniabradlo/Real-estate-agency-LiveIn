@@ -1,0 +1,168 @@
+.swiperreview-comp{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3%;
+}
+
+
+.aboutus-comp{
+    text-align: center;
+}
+
+.aboutus-comp .aboutus-intro-text{
+    font-size: 20px;
+    line-height: 140%;
+    background-color: #eeedeb;
+}
+
+.aboutus-comp .aboutus-intro-text p {
+    display: block;
+    width: 50%;
+    padding: 2% 0;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 140%;
+
+
+}
+
+
+
+.aboutus-comp .aboutus-text-quality{
+    font-size: 20px;
+    line-height: 140%;
+    background-color: #eeedeb;
+    margin-top: 2%;
+}
+
+.aboutus-comp .aboutus-text-quality p {
+    display: block;
+    width: 70%;
+    padding: 2% 0;
+    margin: 0 auto;
+    font-size: 20px;
+    color: grey;
+    line-height: 140%;
+}
+
+.more-opinions{
+    background-color: #2f2f2f;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 18px;
+    text-decoration: none;
+}
+
+
+/*.mainbranches-aboutus-tabs{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    margin-top: 5%;*/
+/*}*/
+
+/*.mainbranches-aboutus-tabs button {*/
+/*    padding: 15px;*/
+/*    text-align: center;*/
+/*    background-color: #3b7a4e;*/
+/*    color: #ece7e7;*/
+/*    width: 33%;*/
+/*    text-decoration: none;*/
+/*    border: 1px solid #3b7a4e;*/
+/*}*/
+
+
+/*.mainbranches-aboutus-tabs button:hover{*/
+/*    background-color: #242524;*/
+/*    box-shadow: 5px 5px 10px #c5c3c3;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*    transition: 0.5s;*/
+/*}*/
+
+/*.hide-tab-div{*/
+/*    display: none;*/
+/*}*/
+
+/*.show-tab-div{*/
+/*    padding: 20px;*/
+/*    margin-top: 1%;*/
+/*}*/
+
+/*.aboutus-buy-grid a{*/
+/*    text-decoration: none;*/
+/*    line-height: 25px;*/
+/*    font-size: 17px;*/
+/*}*/
+
+
+/*.aboutus-buy-grid{*/
+/*    display: grid;*/
+/*    grid-template-areas: "pic text";*/
+/*    grid-template-columns: 1fr 2fr;*/
+/*    grid-template-rows: 1fr;*/
+/*    align-items: center;*/
+/*    justify-items: center;*/
+/*    grid-column-gap: 3%;*/
+/*    background-color: white;*/
+/*}*/
+
+/*.aboutus-img{*/
+/*    grid-area: pic;*/
+/*}*/
+
+/*.aboutus-img .img-in-aboutus{*/
+/*    width: 100%;*/
+
+/*}*/
+
+/*.aboutus-img .img-in-aboutus:hover{*/
+/*    transform: scale(1);*/
+/*}*/
+
+/*!*.estates-text{*!*/
+/*!*    grid-area:text;*!*/
+/*!*}*!*/
+
+/*.aboutus-title h2{*/
+/*    position: relative;*/
+/*    left: -500px;*/
+/*    top: 250px;*/
+/*    font-size: 40px;*/
+/*    color: #21462c;*/
+/*    margin: 0;*/
+/*    text-align: right;*/
+/*}*/
+
+/*.aboutus-grid-text{*/
+/*    !*padding: 1% 0;*!*/
+/*}*/
+
+/*.aboutus-grid-text p{*/
+/*    !*margin: 0 2% 2% 0;*!*/
+/*    text-align: justify;*/
+/*}*/
+
+/*.mainbranches-aboutus-wrapper a{*/
+/*    text-decoration: none;*/
+/*    line-height: 29px;*/
+/*}*/
+
+/*.aboutus-grid-button{*/
+/*    padding: 15px;*/
+/*    text-align: center;*/
+/*    background-color: #3b7a4e;*/
+/*    color: #ece7e7;*/
+/*    width: 33%;*/
+/*    border: none;*/
+/*    border-radius: 8px;*/
+/*}*/
+
+
+/*.aboutus-grid-button:hover{*/
+/*    background-color: #242524;*/
+/*    box-shadow: 5px 5px 10px #c5c3c3;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*    transition: 0.5s;*/
+/*}*/

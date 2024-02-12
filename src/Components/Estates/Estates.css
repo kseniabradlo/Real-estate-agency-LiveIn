@@ -1,0 +1,92 @@
+.estates-comp{
+    padding: 3% 0;
+    background-color: #eeedeb;
+}
+
+.estates-text p{
+    text-align: center;
+    line-height: 40px;
+    width: 60%;
+    font-size: 20px;
+    margin: 0 auto;
+    color: grey;
+}
+
+
+.estates-grid{
+    width: 70%;
+    margin: 0 auto;
+    padding: 3% 0;
+
+}
+
+
+.buy-grid, .rent-grid, .managing-grid{
+    display: grid;
+    grid-template-areas: "pic text";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 7%;
+    margin-bottom: 7%;
+    background-color: white;
+}
+
+.estates-img{
+    grid-area: pic;
+}
+
+.estates-img .img-in-estates{
+    width: 100%;
+    height: 100%;
+}
+
+.estates-img .img-in-estates:hover{
+  transform: scale(1);
+}
+
+.estates-text{
+    grid-area:text;
+}
+
+.estates-title h2{
+    position: relative;
+    left: -510px;
+    top: 290px;
+font-size: 40px;
+    color: #21462c;
+    margin: 0;
+    text-align: right;
+}
+
+.estates-grid-text{
+    padding: 4% 0;
+}
+
+.estates-grid-text p{
+margin: 0 4% 4% 0;
+    text-align: justify;
+}
+
+.estates-grid a{
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.estates-grid-button{
+    padding: 15px;
+    text-align: center;
+    background-color: #3b7a4e;
+    color: #ece7e7;
+    width: 33%;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.estates-grid-button:hover{
+    background-color: #242524;
+    box-shadow: 5px 5px 10px #c5c3c3;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}

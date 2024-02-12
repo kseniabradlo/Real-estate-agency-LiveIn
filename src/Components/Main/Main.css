@@ -1,0 +1,238 @@
+
+
+.video{
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video_media{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.videotextcontainer{
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.videotitle{
+    font-size: 60px;
+    color: rgb(213, 209, 209);
+}
+
+.ecovideoText{
+    padding: 45px;
+    color:   rgb(234, 231, 231);
+    font-size: small;
+    border-radius: 5px;
+    width: 60%;
+    text-align: justify;
+}
+
+
+
+.grzegorz-and-mission{
+    display: flex;
+    justify-content: space-between;
+    padding: 4% ;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.grzegorz-and-mission .grzegorz-div{
+    padding: 2%;
+    box-shadow: 5px 5px 10px #c5c3c3;
+    height: 80%;
+}
+
+.grzegorz-and-mission .grzegorz-div:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.grzegorz-and-mission .grzegorz-div .grzegorz-contact{
+    padding: 5%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.grzegorz-and-mission .grzegorz-div .grzegorz-contact .name-title .name{
+    font-size: large;
+    color: #3b7a4e;
+    font-weight: bold;
+}
+
+.grzegorz-and-mission .grzegorz-div .grzegorz-contact .name-title .title{
+    font-size: medium;
+}
+
+.grzegorz-and-mission .grzegorz-div .grzegorz-contact .tel-email p{
+    color: #a19e9a;
+}
+
+.mission-swiper{
+    margin:10px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.mission-swiper .mission{
+    display: flex;
+    justify-content: center;
+}
+
+.mission-swiper .mission p{
+    font-size: 20px;
+    color: #83817f;
+    text-align: center;
+    width: 70%;
+    line-height: 140%;
+    border-top: 1px solid #656464;
+    padding-top: 5%;
+    margin-top: 5%;
+
+}
+
+/*.mission-swiper .sell-rent{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    margin-top: 5%;*/
+/*}*/
+
+/*.mission-swiper .sell-rent div{*/
+/*    border: 1px solid white;*/
+/*    padding: 15px;*/
+/*    text-align: center;*/
+/*    background-color: #3b7a4e;*/
+/*    color: #ece7e7;*/
+/*    width: 33%;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.mission-swiper .sell-rent div a{*/
+/*    color: #ece7e7;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.mission-swiper .sell-rent div:hover{*/
+/*    background-color: #242524;*/
+/*    box-shadow: 5px 5px 10px #c5c3c3;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*    transition: 0.5s;*/
+
+
+/*}*/
+
+
+.mission-swiper .swiper{
+    max-width: 900px;
+    /*margin-top: 5%;*/
+    min-width: 0;
+    padding: 5% 0;
+    /*border: 1px solid black;*/
+}
+
+.orly{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "logo photo"
+"text photo";
+    /*grid-gap: 1%;*/
+    padding: 1% 15%;
+    background-color: #eeedeb;
+
+}
+
+.orly .photo-orly{
+    grid-area: photo;
+}
+
+.orly .logo{
+    grid-area: logo;
+    text-align: center;
+
+}
+
+.orly .logo img{
+    width: 30%;
+}
+
+
+.orly .text{
+    grid-area: text;
+    text-align: center;
+    font-size: 18px;
+    line-height: 140%;
+    border-top: 1px solid darkgray;
+
+}
+
+
+
+
+/*.orly{*/
+/*    border: 1px solid black;*/
+/*    display: grid;*/
+/*    margin: 0 auto;*/
+/*    max-width: 1440px;*/
+/*    align-items: center;*/
+/*    justify-items: center;*/
+/*    grid-template-columns: 1fr;*/
+/*    grid-template-rows: 1fr 1fr 1fr;*/
+/*    grid-template-areas:*/
+/*"photo photo photo"*/
+/*"logo logo logo"*/
+/*"text text text";*/
+/*}*/
+
+/*.orly .photo-orly{*/
+/*    grid-area: photo;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.orly .photo-orly img{*/
+/*    width: 50%;*/
+
+/*}*/
+
+/*.orly .text-orly-logo .logo {*/
+/*    grid-area: logo;*/
+/*    text-align: center;*/
+/*    border: 1px solid black;*/
+
+/*}*/
+
+/*.orly .text-orly-logo .logo img{*/
+/*    width: 10%;*/
+
+/*}*/
+
+/*.orly .text-orly-logo .text{*/
+/*    grid-area: text;*/
+/*    border: 1px solid black;*/
+/*    padding: 0 25%;*/
+/*}*/
+/*.orly .text-orly-logo .text p{*/
+/*text-align: center;*/
+/*    line-height: 120%;*/
+/*}*/

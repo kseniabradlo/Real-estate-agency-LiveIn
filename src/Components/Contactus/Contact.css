@@ -1,0 +1,70 @@
+.contact-comp{
+    background-color: #eeedeb;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    padding: 3% 0 5% 0;
+}
+
+.contact-comp .contact-title-text{
+    width: 60%;
+    padding-bottom: 1%;
+    margin: 0 auto;
+
+}
+
+.contact-comp .contact-title-text .contact-title h2{
+    margin: 0;
+    color: #464545;
+    text-align: center;
+}
+
+.contact-comp .contact-title-text .contact-text p{
+    color: #757474;
+    line-height: 150%;
+    font-size: 22px;
+    text-align: center;
+}
+
+.contact-green-wrapper{
+    background-color: #286431;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.contact-comp .contact-logoinfo-google{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.contact-comp .contact-logoinfo-google .logoinfo .contact-logo{
+border-bottom: 1px solid #f1f0f0;
+}
+
+.contact-comp .contact-logoinfo-google .logoinfo .contact-info p{
+    color: #ded9d9;
+    text-align: center;
+    font-size: 18px;
+    line-height: 7px;
+}
+
+.contact-comp .contact-logoinfo-google .logoinfo .contact-info p:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #656262;
+    transform: scale(1.025);
+}
+.contact-comp .contact-logoinfo-google .logoinfo .contact-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /*margin-top: 5%;*/
+}
+
+.contact-comp .contact-logoinfo-google .google iframe{
+    height: 100%;
+    border: none;
+}

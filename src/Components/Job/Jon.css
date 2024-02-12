@@ -1,0 +1,92 @@
+.job-wrapper{
+    margin: 0 auto;
+   max-width: 1440px;
+    border-bottom: 1px solid darkgray;
+}
+
+.job-wrapper .job-title{
+    margin-bottom: 4%;
+    /*grid-area: title;*/
+    background-color:#eeedeb;
+    display: block;
+    padding: 2% 0;
+}
+
+.job-wrapper .job-title h2, p{
+    /*width: 50%;*/
+    text-align: center;
+}
+
+.job-comp{
+    text-align: center;
+    display: grid;
+    margin: 0 auto;
+    width: 60%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas:
+            /*"title title"*/
+"photo cards"
+"photo cards";
+padding-bottom: 7%;
+
+
+}
+
+.job-comp .team-photo{
+    grid-area: photo;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.job-comp .team-photo img{
+    box-shadow: 10px 10px 10px #b0aeae;
+}
+
+.job-comp .team-photo img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.job-comp .job-cards{
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(150px,1fr));*/
+    /*grid-template-rows: 1fr;*/
+    grid-row-gap: 5%;
+    width: 70%;
+margin: 0 auto;
+    grid-area: cards;
+}
+
+.job-comp .job-cards a {
+    background-color: #3b7a4e;
+    color: antiquewhite;
+    box-shadow: 10px 10px 10px #b0aeae;
+    padding: 10%;
+    text-decoration: none;
+}
+
+.job-comp .job-cards a:hover{
+    background-color: #2f2f2f;
+    color: antiquewhite;
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: 1s;
+}
+
+
+.job-comp .job-cards div p{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+
+.job-comp .job-cards div h3{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 25px;
+    /*margin-bottom: 27%;*/
+}

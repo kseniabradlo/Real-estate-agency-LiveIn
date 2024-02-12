@@ -1,0 +1,57 @@
+.agent-comp .agent-title{
+    text-align: center;
+    font-size: 30px;
+/*margin-bottom: 2%;*/
+}
+
+.grid-main{
+    width: 70%;
+    margin: 0 auto;
+    grid-row-gap: 5%;
+    display: grid;
+}
+
+.offering, .duties, .qualifies{
+    display: grid;
+    padding: 0 3% 0 0;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 5%;
+   align-items: center;
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas: "photo title"
+"photo text";
+    box-shadow: 10px 10px 19px #dedddd;
+}
+
+img{
+    grid-area: photo;
+}
+
+img:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.div-title{
+    grid-area: title;
+    text-align: end;
+    font-size: 25px;
+    color: #b9b5b5;
+    margin-bottom: 0;
+}
+
+.divofdivs{
+    line-height: 140%;
+    grid-area: text;
+    font-size: 17px;
+    border-left: 2px solid #a19e9e;
+}
+
+.cv{
+    text-align: center;
+    background-color: #155215;
+    color: #e8e3da;
+    margin-top: 10%;
+    padding: 2%;
+}

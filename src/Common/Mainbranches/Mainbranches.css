@@ -1,0 +1,25 @@
+
+.sell-rent{
+    display: flex;
+    justify-content: space-between;
+    /*margin-top: 5%;*/
+}
+
+.sell-rent a {
+    padding: 15px;
+    text-align: center;
+    background-color: #3b7a4e;
+    color: #ece7e7;
+    width: 33%;
+    text-decoration: none;
+    border: none;
+}
+
+
+.sell-rent a:hover{
+    background-color: #242524;
+    box-shadow: 5px 5px 10px #c5c3c3;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}

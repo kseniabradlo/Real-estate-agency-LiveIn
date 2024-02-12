@@ -1,0 +1,81 @@
+.managing-comp-main{
+    height: 1000px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: black;
+    z-index: 2;
+    position: relative;
+    opacity: 0.7;
+    line-height: 30px;
+    padding: 5% 0;
+}
+
+.managing-comp-main .managing-comp-main-intro{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.managing-comp-main p{
+    color: white;
+    font-size: 17px;
+width: 70%;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+.managing-comp-main h2{
+    color: white;
+    font-size: 30px;
+}
+
+.managing-comp-main-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    width: 70%;
+    margin: 0 auto;
+    align-self: center;
+    justify-self: center;
+    padding-top: 10%;
+}
+
+.managing-comp-main-grid div{
+text-align: center;
+}
+
+.managing-comp-main-grid img{
+    width: 100px;
+    z-index: 3;
+
+}
+
+.managing-comp-main-grid img:hover{
+    transform: scale(1.2);
+}
+
+.down-title p{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 7%;
+}
+
+.managing-comp-list{
+    background-color: #eeedeb;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 5% 10%;
+}
+
+.managing-comp-list h2{
+    text-align: center;
+    font-size: 35px;
+    color: #0c330c;
+}
+
+.managing-comp-list ul li{
+    font-size: 21px;
+    color: #4c4d4c;
+    line-height: 40px;
+}
